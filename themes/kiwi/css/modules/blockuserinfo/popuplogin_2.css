@@ -1,0 +1,26 @@
+/* popup_login */
+#popup_container_2 {
+	float: left;
+	width: 400px
+}
+#popup_content li{
+	list-style-type:none;
+	float:left;
+	width:150px;
+	height:50px;
+}
+#popup_content_2 a{
+	text-decoration: none;
+}
+
+#popup_FB{
+	background-image: url('../../../images/icon/facebook.png');
+}
+
+#popup_GG{
+	background-image: url('../../../images/icon/google.png');
+}
+
+#popup_YH{
+	background-image: url('../../../images/icon/yahoo.png');
+}

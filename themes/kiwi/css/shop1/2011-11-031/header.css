@@ -1,0 +1,309 @@
+@charset "utf-8";
+/** HEADER **/
+.header {
+	width:100%;
+	clear:both;
+	background:white;
+}
+.header .logo {
+float: left;
+width: 100%;
+height: 0px;
+}
+.header .logo a {
+width: 200px;
+margin-left: 415px;
+float: left;
+margin-top: -58px;
+}
+.logo h1 {
+
+}
+.header .account {
+	float:left;
+	display: inline;
+	width: 98%;
+font-size: 14px;
+font-family: "Times New Roman", Times, serif;
+text-align: center;
+padding: 0 10px;
+}
+.header .account ul {
+	float: left;
+	display: inline;
+	font-size: 14px;
+	margin-top: 5px;
+	line-height: 10px;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+
+}
+.header .account ul li{
+	/*width: 70px;*/
+	float: left;		
+}
+.header .account ul li.first {
+	background:none;
+	padding-right:0;
+}
+.header .account ul li a {
+	text-decoration:none;
+}
+.header .account ul li a:hover {
+	text-decoration:none;
+	color:#807b78;
+}
+.header .account .shopping-item {
+	float: right;
+font-size: 11px;	
+margin-top: 31px;
+}
+.header .account .shopping-item strong {			
+	color:#384140;
+	float:left;
+	padding-right:5px;
+}
+.header .account .shopping-item div div{
+	float:right;
+	line-height:20px;
+}
+.header .account .shopping-item div div .ajax_cart_total {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+}
+
+/***/
+.header-title {
+	float:left;
+	width:97%;
+	padding-bottom:5px;		
+	color:black;
+}
+.header-title h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+.header-title-sub {
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #000;
+	border-top:1px dotted #000;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	color:black;
+}
+.header-title-sub h4 {
+	font-size:18px;
+	font-weight:normal;
+}
+
+#header_right {
+	float:left;
+	width:100%;
+	font-size:11px;
+}
+#currencies_block_top, #languages_block_top, #header_links, #search_block_top {
+	display:none;
+}
+/* hoaiphuong edit logo-brand*/
+.logo-brand {
+width: 100%;
+background: url('../../images/brandnav_bg.png');
+height: 36px;
+-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: -5px 3px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+position: relative;
+z-index: 100;
+}
+.lb-container {
+margin-left: 10px;
+}
+.logo-brand li {
+margin-right: 10px;
+background: url('../../images/brandnavli_bg.png') no-repeat right;
+float: left;
+list-style: none;
+padding-right: 10px;
+height:100%;
+}
+.logo-brand li a {
+  display: block;
+    height: 30px;
+    margin: 5px;
+    text-decoration: none;
+    width: 110px;
+background: url('../../images/logo-brand.png') no-repeat;
+margin-top:0;
+
+}
+.brand_logo2 a {
+background-position: 6px -24px!important;
+
+}
+.brand_logo3 a {
+background-position: 0 -49px!important;
+}
+#img_block {
+margin-top: 1px;
+
+}
+.ad_block {
+float: left;
+width: 100%;
+height: 0px;
+overflow: hidden;
+}
+.user_block{
+float: left;
+display: inline;
+width: 200px;
+font-size:14px;
+margin-top: 5px;
+margin-left: 21px;
+line-height:10px;
+font-family:"Times New Roman", Times, serif;
+
+text-align:center;
+}
+.user_block a{
+color:#999999;
+
+}
+.user_block li{
+width:70px;
+float:left;
+}
+.brand-top {
+float: left;
+height: 100%;
+width:190px;
+}
+.right-menu{
+	float: right;
+width: 77%;
+margin-top: 32px;
+}
+.brand-top a {
+width: 100%;
+height: 100%;
+float:left;
+background: url('../../images/brand1.png') 0 10px no-repeat;
+}
+.brand-top a:hover {
+	background-position: 0 -56px;
+}
+#login_button{
+	float: right;
+	position:relative;
+padding: 4px 6px 6px;
+text-decoration: none;
+font-weight: bold;
+background-position: 100% 50%;
+background: #111;
+background: transparent 9;
+margin-left:10px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+#login_button a{
+font: 13px/1.5 Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+padding-right: 22px;
+}
+a.login-button{
+	background-image: url(../../images/toggle_down_light.png);
+background-repeat: no-repeat;
+background-position: 100% 50%;
+padding: 4px 16px 6px 0;
+color:white;
+font: 13px/1.5 Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+}
+.menu-open{
+	background: #1F1E1D!important;
+	position:relative;
+	z-index:1003;
+	
+}
+
+.menu-open a.login-button{
+background-image: url(../../images/toggle_up_light.png)!important;
+}
+input#SubmitLogin{
+	-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+background: #DDD url(../../images/buttons/bg-btn.gif) repeat-x 0 0;
+border-color: #BBB #BBB #999;
+color: #333!important;
+padding: 0 10px 5px !important;
+font-size: 11px;
+margin: 0 5px 0 0;
+font-weight: bold;
+width: 68px!important;
+height: 25px;
+font-weight: normal!important;
+margin-top: 20px!important;
+cursor:pointer;
+}
+.sign_up{
+	line-height: 30px;
+}
+input:-webkit-autofill {
+    color: white !important;
+}
+#header_user_info{
+color:black;
+position:relative;
+z-index:1000;
+}
+a.login-button:hover{
+}
+a#log_out{
+	color:#807B78;
+}
+a.sign_up{
+	float:left;
+}
+#login_form a{
+	color:#dcd9d7;
+}
+.zindex200{
+	z-index:2000!important;
+}
+.SubmitLoginsucces{
+	background:#7be1fa!important;
+}
+p.errors_display{
+	color:#ee6a6e !important;
+	font-weight:bold;
+}
+.loadinginfo{
+	 background: url("../../images/loadinfo.gif") no-repeat scroll 0 0 transparent!important;
+}
+input.loadingingo:hover{
+	background-position:0!important;
+	
+}
+.brand_logo1 a{
+	background-position: 14px 3px!important;
+}
+.brand_logo1_hover a{
+	background-position: -117px 3px!important;
+}
+.brand_logo1 a:hover{
+	background-position: -117px 3px!important;
+}
+.brand_logo2_hover a{
+	background-position: -125px -24px!important;
+}
+.brand_logo2 a:hover{
+	background-position: -125px -24px!important;
+}
+.brand_logo3_hover a{
+	background-position: -131px -49px!important;
+}
+.brand_logo3 a:hover{
+	background-position: -131px -49px!important;
+}
+/* end hoaiphuong edit */

@@ -1,0 +1,210 @@
+@charset "utf-8";
+.box-product-relation {
+	float:left;
+	width:956px;
+	clear:both;	
+	margin-bottom:10px;
+}
+.box-product-relation .header-title {
+	float:left;
+	padding-left:10px;
+	clear:both;
+	background: black url(../images/bg/header_bg.jpg);
+	line-height:30px;
+	width: 941px;
+}
+.box-product-relation .header-title ul {
+	float:left;
+	clear:both;
+	width:100%;
+	list-style:none;
+	display:block;
+}
+.box-product-relation .header-title ul li {
+	width:auto;
+	float:left;
+	background:url(../images/icon/bullet-point-white.gif) left center no-repeat;
+	padding-left:58px;
+	padding-right:58px;
+	color:#FFFFFF;
+	font-size:8.5pt;
+	line-height:30px;
+}
+.box-product-relation .header-title ul li.first {
+	padding-left:0;
+	background:none;
+}
+.box-product-relation .header-title ul li strong {
+	float:left;
+	text-transform: uppercase;
+}
+.box-product-relation .header-title ul li a {
+	color:#FFFFFF;
+	float:left;
+	padding-left:7px;
+	padding-left: 13px;
+font-style: italic;
+}
+.box-product-relation .header-title ul li a:hover {
+	color: #C6C1C1;
+}
+.box-product-relation .parent-item {
+	float:left;
+/*	clear:both;*/
+border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+margin-top: 30px;
+width: 950px;
+padding-bottom:20px;
+}
+.box-product-relation .item h3 {
+	color: black;
+padding: 14px 0;
+font-family: Arial;
+font-size: 12px;
+text-transform: uppercase;
+font-weight: normal;
+width: 100%;
+float: left;
+clear:both;
+}
+
+.box-product-relation .item ul li {
+	float: left;
+width: 98px;
+height: 127px;
+padding-right: 15px;
+padding-left: 11px;
+}
+.box-product-relation .item .adv {	
+	float:left;
+	width:350px;
+	border-left: 1px dotted black;
+padding-left: 10px;
+}
+.box-product-relation .item .adv img {
+	width: 345px;
+max-height: 165px;
+}
+.pro-thumb {
+	width:120px;
+	height:auto;
+}
+.pro-thumb h4, .pro-thumb h5 {
+	font-size:8.5pt;
+}
+.pro-thumb h6 a{
+	color:#c0265a;
+}
+.product_accessories_description{
+	border:none!important;
+}
+.prev-item, .next-item{
+	border-radius: 2px;
+border: 1px solid #CCC;
+display: inline-block;
+float: left;
+z-index: 2;
+white-space: nowrap;
+cursor: pointer;
+padding: 3px 9px 3px 6px;
+margin-top: 13px;
+margin-right: 5px;
+}
+.prev-item span, .next-item span{
+	float: left;
+height: 11px;
+width: 9px;
+background-image: url('../images/bg/icon_sprite_new.png');
+display: inline-block;
+background-position: -10px -419px;
+}
+.next-item span{
+	background-position: 0 -419px;
+}
+a.prev-item:hover span {
+background-position: 0 -407px;
+}
+a.next-item:hover span {
+background-position: -10px -407px;
+}
+#motioncontainer{
+	float:left;
+}
+/* Gallery Styles */
+
+#motioncontainer {
+	position: relative;
+	overflow:hidden;
+  margin:0 auto;
+width: 557px;
+height: 170px;
+clear:both;
+margin-right:10px;
+}
+
+#motioncontainer a img {
+}
+
+#motioncontainer a:hover img {
+  /* Set image border hover color */
+}
+
+#motiongallery {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	white-space: nowrap;
+	height:160px;
+}
+#trueContainer {
+	position:absolute;
+}
+#statusdiv {
+  background-color: lightyellow;
+  border: 1px solid gray;
+  padding: 2px;
+  position: absolute; /* Stop Editing Gallery Styles */
+  left: -300px;
+  visibility: hidden;
+}
+
+#motioncontainer a:hover {
+  color: red; /* Dummy definition to overcome IE bug */
+}
+
+#trueContainer {
+  white-space: nowrap;
+}
+
+.galImage {
+  margin: 20px 10px 20px 10px;
+  height: 128px;
+  width: 256px;
+}
+
+.galImage:hover {
+  height: 148px;
+  margin: 10px 0px 10px 0px;
+  width: 276px;
+	-webkit-box-shadow: 5px 5px 5px #888; 
+	-moz-box-shadow: 5px 5px 5px #888;
+}
+
+
+#container {margin: 100px auto; width: 1000px;}
+
+ 
+.clearBoth {clear:both;display:block;}
+.pro-thumb a{
+	float:left;
+}
+.connect-link div{
+	margin:0 auto;
+}
+ 
+/*
+Based on reset.css template by Derek Balmer of Hold Fast Creative and original reset.css by Eric Meyer via http://meyerweb.com/eric/tools/css/reset/   
+*/
+
+/* End Gallery Styles */

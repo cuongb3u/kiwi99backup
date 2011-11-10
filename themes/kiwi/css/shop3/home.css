@@ -1,0 +1,41 @@
+@charset "utf-8";
+.home {
+	width:1000px;
+	background:url(../../images/data/home.gif) 9px 10px no-repeat;
+	margin-bottom:20px;
+}
+.content {
+	padding:10px;
+	clear:both;
+width: 948px;
+	border-left: 1px solid #999;
+border-right: 1px solid #999;
+}
+#main-banner{
+	position:relative;
+}
+#left-link{
+	position: absolute;
+width: 131px;
+height: 68px;
+left: 0px;
+top: 168px;
+	background:url(../../images/bg/shop3_leftlink_bg.png);
+}
+a#left-link:hover{
+	background-position:0 -68px;
+}
+#right-link{
+	position: absolute;
+width: 145px;
+height: 83px;
+right: 0px;
+top: 180px;
+background: url(../../images/bg/shop3_rightlink_bg.png);
+}
+a#right-link:hover{
+	background-position:0 -84px;
+}
+#bottom-banner{
+	margin-top:10px;
+}

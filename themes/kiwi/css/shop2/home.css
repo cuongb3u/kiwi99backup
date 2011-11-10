@@ -1,0 +1,11 @@
+@charset "utf-8";
+.home {
+	width:1000px;
+	background:url(../../images/data/home.gif) 9px 10px no-repeat;
+	margin-bottom:20px;
+}
+.content {
+	padding:10px;
+	clear:both;
+	width: 950px;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+.shop {
+	background:url(../../images/icon/shopping-item.gif) left top no-repeat;
+	padding-left:20px;
+	height:20px;
+}
+.facebook {
+	background:url(../../images/icon/facebook.gif) left center no-repeat;
+	padding-left:20px;
+	float:left;
+	line-height:16px;
+}
+.twitter {
+	background:url(../../images/icon/twitter.gif) left center no-repeat;
+	padding-left:20px;
+	float:left;
+	line-height:16px;
+}
+.menu-ext-women {
+	background:url(../../images/icon/menu-ext-women.gif) left center no-repeat;
+	float:left;
+	padding-left:15px;
+}
+.menu-ext-men {
+	background:url(../../images/icon/menu-ext-men.gif) left center no-repeat;
+	float:left;
+	padding-left:15px;
+}
+.menu-ext-children {
+	background:url(../../images/icon/menu-ext-children.gif) left center no-repeat;
+	float:left;
+	padding-left:15px;
+}
+
+.share {
+	background:url(../../images/icon/share.gif) left center no-repeat;
+	padding-left:17px;
+}
+.wish-list {
+	background:url(../../images/icon/wishlist.gif) left center no-repeat;
+	padding-left:17px;
+}
+.shopping-continue {
+	background:url(../../images/icon/shopping-continue.gif) right center no-repeat;
+	font-size:8.5pt;
+	padding-right:17px;
+	font-weight:bold;
+}

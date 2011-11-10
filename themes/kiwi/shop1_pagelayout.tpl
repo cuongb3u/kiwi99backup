@@ -1,0 +1,1 @@
+<img src="{$smarty.const._THEME_DIR_}images/data/home.1.gif" alt="" width="960" border="0" />

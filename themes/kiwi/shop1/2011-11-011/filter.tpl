@@ -1,0 +1,84 @@
+
+<div class="sorthitscontainer">
+	                
+	                
+
+
+
+  
+
+<div class="sortby">
+	<form action="javascript:void(0)">
+		<fieldset>
+			<label>Xếp theo:</label>
+			<select>
+				
+	            <option selected="selected" value="date_add:desc" >hàng mới trước</option>
+	            <option value="orderprice:desc" >giá cao trước</option>
+	            <option value="orderprice:asc" >giá thấp trước</option>
+	            <option value="name:asc" >tên từ A - Z</option>
+	            <option value="name:desc" >tên từ Z - A</option>
+	            <option value="quantity:desc" >còn hàng trước</option>
+
+				
+			</select>
+		</fieldset>
+	</form>
+</div><!-- END: sortby -->
+
+
+	       {if isset($p) AND $p OR 1}
+			{if isset($smarty.get.id_category) && $smarty.get.id_category && isset($category)}
+				{assign var='requestPage' value=$link->getPaginationLink('category', $category, false, false, true, false)}
+				{assign var='requestNb' value=$link->getPaginationLink('category', $category, true, false, false, true)}
+			{elseif isset($smarty.get.id_manufacturer) && $smarty.get.id_manufacturer && isset($manufacturer)}
+				{assign var='requestPage' value=$link->getPaginationLink('manufacturer', $manufacturer, false, false, true, false)}
+				{assign var='requestNb' value=$link->getPaginationLink('manufacturer', $manufacturer, true, false, false, true)}
+			{elseif isset($smarty.get.id_supplier) && $smarty.get.id_supplier && isset($supplier)}
+				{assign var='requestPage' value=$link->getPaginationLink('supplier', $supplier, false, false, true, false)}
+				{assign var='requestNb' value=$link->getPaginationLink('supplier', $supplier, true, false, false, true)}
+			{else}
+				{assign var='requestPage' value=$link->getPaginationLink(false, false, false, false, true, false)}
+				{assign var='requestNb' value=$link->getPaginationLink(false, false, true, false, false, true)}
+			{/if}
+
+
+	
+	<div class="itemsperpage">
+		{if $nb_products > 0 OR 1}
+			<form action="{if !is_array($requestNb)}{$requestNb}{else}{$requestNb.requestUrl}{/if}" method="get" class="pagination">
+				<p>
+					{if isset($search_query) AND $search_query}<input type="hidden" name="search_query" value="{$search_query|escape:'htmlall':'UTF-8'}" />{/if}
+					{if isset($tag) AND $tag AND !is_array($tag)}<input type="hidden" name="tag" value="{$tag|escape:'htmlall':'UTF-8'}" />{/if}
+					<label for="nb_item">{l s='Sản phẩm hiển thị: '}</label>
+					<select name="n" id="nb_item">
+					{assign var="lastnValue" value="0"}
+					{foreach from=$nArray item=nValue}
+						{if $lastnValue <= $nb_products}
+							<option value="{$nValue|escape:'htmlall':'UTF-8'}" {if $n == $nValue}selected="selected"{/if}>{$nValue|escape:'htmlall':'UTF-8'}</option>
+						{/if}
+						{assign var="lastnValue" value=$nValue}
+					{/foreach}
+					</select>
+					{if is_array($requestNb)}
+						{foreach from=$requestNb item=requestValue key=requestKey}
+							{if $requestKey != 'requestUrl'}
+								<input type="hidden" name="{$requestKey}" value="{$requestValue}" />
+							{/if}
+						{/foreach}
+					{/if}
+				</p>
+			</form>
+		{/if}
+	</div><!-- END: itemsperpage -->
+		{/if}	
+	
+	<div class="layout-slider" style="float:left; margin-left: 30px; width:384px;">
+
+	  <input id="Slider2" type="slider" name="price" value="{$min_slider};{$max_slider}" />
+	</div>
+<!-- END: resultshits -->
+
+	                <div class="clear"><!-- FLOAT CLEAR --></div>
+	            </div>
+

@@ -1,0 +1,106 @@
+/* identity.tpl */
+p#security_informations {
+	font-size: 0.85em;
+	margin: 0 3em
+}
+.box-identity {
+	width: 710px;
+	margin-top:10px;
+	float:left;
+	clear:both;
+}
+.box-identity .identity-item {
+	float:left;
+	clear:both;
+	width:610px;
+	border: 1px solid #BEBBBD;
+	padding:9px 19px;
+	margin:10px 30px;
+}
+.box-identity .identity-item h4 {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.box-identity .identity-item .section-error {
+	float:left;
+	clear:both;
+	width:100%;
+	font-size:11px;
+	margin-bottom:5px;
+}
+.box-identity .identity-item .user-input {
+	float:left;
+	width:610px;
+	padding-bottom:10px;
+	font-size:11px;
+}
+.box-identity .identity-item .user-input label {
+	float:left;
+	width:200px;
+	text-align:right;
+	padding-right:5px;
+	
+}
+.box-identity .identity-item .user-input label.radio,
+.box-identity .identity-item .user-input label.chk {
+	width:auto;
+}
+.box-identity .identity-item .user-input input {
+	float:left;
+	width:200px;
+	font-size:11px;
+	padding:2px 0;
+}
+.box-identity .identity-item .user-input input.radio,
+.box-identity .identity-item .user-input input.chk,
+.box-identity .identity-item .user-input input.btn {
+	width:auto;
+	margin-right:3px;
+}
+.box-identity .identity-item .user-input input.chk,
+.box-identity .identity-item .user-input input.btn {
+	margin-left:205px;
+}
+.box-identity .identity-item .user-input input.btn {
+	padding:3px 10px;
+	background-color:#746254;
+	color:#FFFFFF;
+	border:none;
+	cursor:pointer;
+}
+.box-identity .identity-item .user-input div.radio {
+	float:left;
+	margin-right:10px;
+	width:auto;
+}
+ul.footer_links {
+    clear: both;
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin-top: 7px;
+    width: 100%;
+	font-size:11px;
+}
+ul.footer_links li {
+	float:left;
+	clear:both;
+	width:100%;
+	padding:3px 0;
+	line-height:20px;
+}
+ul.footer_links li img {
+	float:left;
+	border:none;
+	margin-right:3px;
+}
+.box-identity p.success{
+	 color: #972929;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+   height: 30px;
+line-height: 30px;
+    clear:both;
+}
