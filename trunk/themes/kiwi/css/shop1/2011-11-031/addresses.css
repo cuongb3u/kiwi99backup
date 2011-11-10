@@ -1,0 +1,101 @@
+/* adresses */
+div.addresses {	
+	/*border: 1px solid #d0d3d8;background: #D0D1D5 url('../../images/bk/form_bg.jpg') repeat-x top left;*/
+	width: 690px;
+	float:left;
+	clear:both;
+}
+div.addresses h3 { margin: 0 }
+div.addresses p.checkbox,
+p#address_invoice_form {
+	float:left;
+	margin-top:5px;
+}
+p#address_invoice_form{
+float: right;
+width: 48%;
+margin-top: 10px;
+}
+p.address_delivery{
+	float: left;
+width: 49%;
+}
+div.addresses p.checkbox input {
+	margin-top: 0!important;
+	margin-top: -3px
+}
+a.btn_add_address{
+	float: left;
+width: 100%;
+margin-top: 10px;
+color: #DD2A81;
+font: 13px arial,helvetica,clean,sans-serif;
+font-style: italic;
+text-decoration: underline;
+}
+p.checkbox{
+	float:right!important;
+	width:48%;
+}
+
+
+li.address_title {
+	margin-top: 0 !important;
+background-color: #D0D1D5;
+color: #374853;
+font-weight: bold;
+height: 27px;
+font-size: 1.2em;
+line-height: 1.9em;
+margin-left: 0px!important;
+padding-left: 15px;
+width: 321px!important;
+}
+ul.item li.address_title { /*background-image: url('../../images/bk/address_alias_left.gif')*/ background-color:#C1C1C1; }
+ul.alternate_item li.address_title { /*background-image: url('../../images/bk/address_alias_right.gif')*/ background-color:#C1C1C1; }
+li.address_name,
+li.address_update a,
+li.address_delete a { 
+ 	color: #dd2a81; 
+}
+li.address_name,
+li.address_firstname,
+li.address_lastname { 
+ 	font-weight: bold 
+}
+
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_update a,
+span.address_delete a { color: #dd2a81 }
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_company { font-weight: bold }
+
+li.address_update,
+li.address_delete {
+	background: transparent url('../../images/bk/bullet_myaccount.gif') no-repeat 0 9px;
+	margin-left: 15px;
+	padding-left:10px;
+	width:300px !important;
+}
+li.address_update a,
+li.address_delete a {
+	float:left;
+	padding-left:5px;
+}
+#center_column .address_add { padding: 1em 0 }
+.address_vat_number,
+.address_country {
+	display:none;
+}
+.first-item {
+	float:left;
+	width:80px;
+	font-weight:normal;
+}
+.last-item {
+	float:left;
+}

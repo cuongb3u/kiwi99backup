@@ -1,0 +1,51 @@
+/* discount.tpl */
+p#security_informations {
+	font-size: 0.85em;
+	margin: 0 3em
+}
+.box-discount {
+	width: 710px;
+	margin-top:10px;
+	float:left;
+	clear:both;
+}
+.box-discount .discount-item {
+	float:left;
+	clear:both;
+	width:710px;
+}
+.box-discount .discount-item table {
+	border:1px solid #F0EEEF;
+	float:left;
+	width:710px;
+	border-collapse:collapse;
+	font-size:11px;
+	text-align:center;
+}
+.box-discount .discount-item table th {
+	line-height:30px;
+}
+.box-discount .discount-item table td {
+	padding:5px;
+}
+ul.footer_links {
+    clear: both;
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin-top: 7px;
+    width: 100%;
+	font-size:11px;
+}
+ul.footer_links li {
+	float:left;
+	clear:both;
+	width:100%;
+	padding:3px 0;
+	line-height:20px;
+}
+ul.footer_links li img {
+	float:left;
+	border:none;
+	margin-right:3px;
+}

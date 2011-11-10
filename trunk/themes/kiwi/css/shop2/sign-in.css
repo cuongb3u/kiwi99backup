@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* @import url('global.css'); */
+.section-error{
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px dotted #000;
+	width:100%;
+	font-size:11px;
+}
+.box-signin-register {
+	float:left;
+	clear:both;
+	width:730px;
+	background:url(../images/bg/signin-register.gif) left top repeat-y;
+	margin:20px 0;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+.box-signin-register .signin {
+	float:left;
+	width:330px;
+	margin-right:20px;
+	clear:both;
+}
+.box-signin-register .register {
+	float:left;
+	width:330px;
+	padding-left:20px;
+}
+.box-signin-register .item {
+	border-top:1px dotted #000000;
+	padding-top:20px;
+	float:left;
+	clear:both;
+	font-size:11px;
+}
+.box-signin-register .item p {
+	float:left;
+	padding-bottom:10px;
+	color:#000000;
+}
+.box-signin-register .item ul {
+	float:left;
+	clear:both;
+	width:100%;
+	display:block;
+	list-style:none;
+	padding-bottom:7px;
+	color:#000000;
+}
+.box-signin-register .item ul li {
+	background:url(../images/icon/bullet-black.gif) left 9px no-repeat;
+	float:left;
+	padding:3px 0 3px 10px;
+	clear:both;
+	width:auto;
+}
+.box-signin-register .item .user-input {
+	float:left;
+	width:330px;
+	padding-bottom:10px;
+	clear:both;
+}
+.box-signin-register .item .user-input label {	
+	font-weight:bold;
+	color:#746254;
+	width:100px;
+	float:left;
+	line-height:20px;
+}
+.box-signin-register .item .user-input input {
+	float:left;
+	width:228px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-signin-register .item .user-input input.btn {
+	float:right;
+	width:auto;
+	border:none;
+	height:auto;
+}
+.box-signin-register .item .user-input span.notes {
+	float:left;
+	width:100%;
+	text-align:right;
+	padding-top:5px;
+	color:#a0a0a0;
+}
+/****/
+.box-forget-password {
+	float:left;
+	clear:both;
+	width:730px;
+	border-top:1px dotted #000000;
+	padding-top:20px;
+	margin-bottom:20px;
+	margin-left:10px;
+}
+.box-forget-password .item {
+	float:left;
+	clear:both;
+	width:330px;
+	font-size:11px;
+}
+.box-forget-password .item p {
+	float:left;
+	width:330px;
+	clear:both;
+	color:#000000;
+	padding-bottom:10px;
+}
+.box-forget-password .item .user-input {
+	float:left;
+	width:330px;
+	padding-bottom:10px;
+	clear:both;
+}
+.box-forget-password .item .user-input label {	
+	font-weight:bold;
+	color:#746254;
+	width:100px;
+	float:left;
+	line-height:20px;
+}
+.box-forget-password .item .user-input input {
+	float:left;
+	width:228px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-forget-password .item .user-input input.btn {
+	float:right;
+	width:auto;
+	border:none;
+	height:auto;
+}
+/***/
+.box-frank {
+	float:left;
+	width:720px;
+	margin-left:20px;
+	padding-top:20px;
+	clear:both;
+}
+.box-frank .item {
+	border-top:1px dotted #000000;
+	padding-top:10px;
+	margin-top:10px;
+	padding-bottom:20px;
+	float:left;
+	clear:both;
+	width:720px;
+}
+.box-frank .item h4 {
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-weight:normal;
+}
+.box-frank .item p {
+	float:left;
+	width:720px;
+	padding-top:30px;
+	clear:both;
+	color:#8d8d8d;
+	line-height:20px;
+}
+.box-frank .item p strong {
+	color:#6e6a67;
+}

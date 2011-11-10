@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url('global.css');
+.navi {
+	width:950px;
+	background:none;
+	line-height:normal;
+}
+.header-title-sub {
+	border-top:none;
+}
+.box-receipt {
+	float:left;
+	width:920px;
+	padding:20px 20px 0;
+	clear:both;
+	margin-bottom:10px;
+	
+}
+.box-receipt .item {
+	float:left;
+	width:920px;
+	clear:both;
+	min-height:350px;
+	background:url(../images/bg/receipt-bg-line.gif) left top repeat-y;
+}
+.box-receipt .news-letter {
+	float:left;
+	width:566px;
+	padding-right:19px;
+	clear:both;
+}
+.box-receipt .news-letter .thanks {
+	float:left;
+	background:url(../images/bg/receipt.gif) left center no-repeat;
+	clear:both;
+	height:202px;
+	width:350px;
+	padding-left:186px;
+	padding-right:20px;
+	color:#fffdfa;
+}
+.box-receipt .news-letter .thanks h3 {
+	float:left;
+	width:350px;	
+	font-size:24px;
+	font-weight:normal;
+	padding-top:25px;
+	line-height:25px;
+}
+.box-receipt .news-letter .thanks strong {
+	font-size:11px;
+	float:left;
+	line-height:20px;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+.box-receipt .news-letter .thanks a.print {
+	background:url(../images/icon/print.gif) right center no-repeat;
+	padding-right:20px;
+	font-size:11px;
+	color:#fffdfa;
+}
+.box-receipt .news-letter .user-input {
+	float:left;
+	width:566px;
+	clear:both;
+}
+.box-receipt .news-letter .user-input p {
+	float:left;
+	width:100%;
+	clear:both;
+	font-size:11px;
+	padding-bottom:20px;
+}
+.box-receipt .news-letter .user-input .left-cols {
+	width:273px;
+	float:left;
+	padding-right:10px;
+}
+.box-receipt .news-letter .user-input .right-cols {
+	width:273px;
+	float:left;
+	padding-left:10px;
+}
+.box-receipt .news-letter .user-input .user-input-item {
+	float:left;
+	width:273px;
+	clear:both;
+	padding-bottom:20px;
+	font-size:11px;
+}
+.box-receipt .news-letter .user-input .user-input-item  label {
+	float:left;
+	line-height:18px;
+	font-weight:bold;
+	cursor:pointer;
+	width:101px;
+}
+.box-receipt .news-letter .user-input .left-cols label {
+	width:81px;
+}
+.box-receipt .news-letter .user-input .user-input-item input {
+	float:left;
+	width:170px;
+	border:1px solid #a7a7a7;
+	height:18px;
+	font-size:11px;
+}
+.box-receipt .news-letter .user-input .user-input-item select {
+	float:left;
+	width:172px;
+	border:1px solid #a7a7a7;
+	height:18px;
+	font-size:11px;
+}
+.box-receipt .news-letter .user-input .user-input-item select.third{
+	float:left;
+	width:55px;
+	margin-right:2px;
+}
+.box-receipt .news-letter .user-input .action {
+	float:left;
+	width:566px;
+	border-top:1px dotted #000;
+	margin-top:10px;
+}
+.box-receipt .news-letter .user-input .action input {
+	float:right;
+	border:none;
+}
+.box-receipt .order-summary {
+	float:left;
+	width:315px;
+	padding-left:20px;
+}
+.box-receipt .order-summary table.list-item td {
+	padding:20px 5px;
+}
+.box-receipt .order-summary table.list-item td .logo,
+.box-receipt .order-summary table.list-item td .description,
+.box-receipt .order-summary table.list-item td .item-number {
+	padding-bottom:5px;
+}
+
+.box-receipt .order-summary table.list-item td .colour {
+	padding-top:10px;
+}
+.box-receipt .order-summary table.list-item td .price {
+	padding:0;
+	margin:0;
+}
+.box-receipt .order-summary table.list-item td.no-line {
+	border:none;
+	padding:5px;
+}
+.box-receipt .order-summary table.list-item td.total {
+	border-top:1px dotted #000;
+	border-bottom:none;
+	padding:10px 5px 0;
+}
+.box-receipt .order-summary table.list-item td div.sub-total,
+.box-receipt .order-summary table.list-item td div.sub-total-text,
+.box-receipt .order-summary table.list-item td div.shipping,
+.box-receipt .order-summary table.list-item td div.shipping-text {
+	float:left;
+	width:50%;
+}
+.box-receipt .order-summary table.list-item td div.sub-total-text,
+.box-receipt .order-summary table.list-item td div.shipping-text {
+	color:#a0a0a0;
+}

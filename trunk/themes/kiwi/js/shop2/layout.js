@@ -1,0 +1,1 @@
+$('.menu-extend').corner("bottom");		

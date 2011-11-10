@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.colour a{
+		background: url("../../images/sh_color.png") no-repeat scroll 0 0 transparent;
+}
+
+.colour a.selected, .colour a:hover{
+		background: url("../../images/sh_color_c.png") no-repeat scroll 0 0 transparent;
+}
+
+#color-images a{
+	width:16px;
+	height:16px;
+	padding: 5px 4px;
+	_background: url("../../images/sh_color.png") no-repeat scroll 0 0 transparent;	
+}
+#color-images a:hover, #color-images a.current{
+	_background: url("../../images/sh_color_c.png") no-repeat scroll 0 0 transparent;	
+}
+
+.circle {
+	float:left;
+	width:20px;
+	height:20px;	
+	line-height:19px;
+	padding: 5px 0 0 4px;
+}
+.sel-colour {
+	border:2px solid #858b8b;
+	width:11px;
+	height:11px;
+}
+.colour1 {
+	background-color:#c0265a;
+}
+.colour2 {
+	background-color:#2ee3f8;
+}
+.colour3 {
+	background-color:#000000;
+}
+.colour4 {
+	background-color:#efe3af;
+}
+.colour5 {
+	background-color:#4e4a9f;
+}
+.colour6 {
+	background-color:#fe0000;
+}
+.colour7 {
+	background-color:#b1c64d;
+}
+.colour8 {
+	background-color:#625ba9;
+}
+.colour9 {
+	background-color:#3cb879;
+}
+.colour10 {
+	background-color:#998675;
+}
+.colour11 {
+	background-color:#ffffff;
+}
+.colour12 {
+	background-color:#ff7e00;
+}
+.colour13 {
+	background-color:#ababab;
+}
+.colour14 {
+	background-color:#efdf28;
+}
+.colour15 {
+	background-color:#f4979f;
+}
+

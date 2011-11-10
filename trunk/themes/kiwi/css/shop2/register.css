@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* @import url('global.css'); */
+/*.section-error{
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px dotted #000;
+	width:100%;
+	font-size:11px;
+}*/
+.line {
+	border-bottom:1px dotted #000000;
+	float:left;
+	padding-top:20px;
+	padding-bottom:5px;
+	margin-bottom:40px;
+	width:450px !important;
+	overflow:hidden;
+}
+.box-register,
+.box-password {
+	float:left;
+	clear:both;
+	width:730px;
+	margin:20px 0;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+.box-register .reg-item,
+.box-password .password-item {
+	border-top:1px dotted #000000;
+	padding-top:10px;
+	float:left;
+	width:730px;
+	clear:both;
+	font-size:11px;
+	background:url(../../images/bg/create-an-account.gif) right top no-repeat;
+	min-height:350px;
+}
+.box-password .password-item {
+	background:none;
+}
+.box-register .reg-item .header-title-sub,
+.box-password .password-item .header-title-sub {
+	border-top:none !important;
+}
+.box-register .reg-item .user-input,
+.box-password .password-item .user-input {
+	float:left;
+	width:450px;
+	padding-bottom:10px;
+	clear:both;
+}
+.box-register .reg-item .user-input div {
+	float:left;
+	width:auto;
+	margin-right:20px;
+}
+.box-register .reg-item .user-input label {	
+	font-weight:bold;
+	color:#3d3d3d;
+	width:150px;
+	float:left;
+	padding-right:5px;
+	line-height:20px;
+}
+.box-register .reg-item .user-input label.radio,
+.box-register .reg-item .user-input label.chk,
+.box-register .reg-item .user-input label.required {
+	width:auto;
+	font-weight:normal;
+}
+.box-register .reg-item .user-input input {
+	float:left;
+	width:248px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:21px;
+}
+.box-register .reg-item .user-input input.radio,
+.box-register .reg-item .user-input input.chk {
+	border:none;
+	width:auto;
+	margin-right:5px;
+	margin-top:2px;
+}
+.box-register .reg-item .user-input select,
+.box-register .reg-item .user-input textarea {
+	float:left;
+	width:250px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-register .reg-item .user-input textarea {
+	height:150px;
+}
+.box-register .reg-item .user-input select.third {
+	float:left;
+	width:80px;
+	margin-right:5px;
+}
+.box-register .reg-item .user-input input.btn {
+	float:right;
+	width:auto;
+	border:none;
+	height:auto;
+	margin-right:50px;
+}
+.box-register .reg-item .user-input span.notes {
+	float:left;
+	width:100%;
+	text-align:right;
+	padding-top:5px;
+	color:#a0a0a0;
+}
+.box-register .reg-item .user-input span.inline-infos,
+.box-register .reg-item .user-input .form_info {
+	float:left;
+	padding-left:155px;
+	padding-top:5px;
+	color:#a0a0a0;
+}
+/***/
+.opc-main-block {
+	float:left;
+	clear:both;
+	width:100%;
+	margin:0 0 20px;
+	padding:10px 10px 20px;
+	background-color: #F2F2F2;
+}
+.step{
+	width:690px;
+}
+.box-register-payment {
+	float:left;
+	clear:both;
+	width:690px;
+}
+.box-register-payment .header-title {
+    float: left;
+    padding-bottom: 5px;
+	width:690px;
+}
+.box-register-payment .header-title h3 {
+	color:black;
+	float: left;
+	line-height:20px;
+	width:690px;
+	font-size:16px;
+	padding-bottom:5px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.box-register-payment .reg-item {
+	border-top:1px dotted #000000;
+	padding-top:10px;
+	float:left;
+	width:690px;
+	clear:both;
+	font-size:11px;	
+	min-height:350px;
+}
+.box-register-payment .reg-item .left-column,
+.box-register-payment .reg-item .right-column {
+	float:left;
+	width:335px;
+	padding:0 5px;
+}
+.box-register-payment .reg-item .left-column {
+	clear:both;
+}
+.box-register-payment .reg-item .header-title-sub {
+	width:325px !important;
+	padding:0 0 10px !important;
+	margin:0 !important;
+	border:none !important;
+}
+.box-register-payment .reg-item .user-input {
+	float:left;
+	width:325px;
+	padding-bottom:10px;
+	clear:both;	
+}
+.box-register-payment .reg-item .user-input div {
+	float:left;
+	width:auto;
+	margin-right:20px;
+}
+.box-register-payment .reg-item .user-input label {	
+	color:#3d3d3d;
+	width:120px;
+	float:left;
+	padding-right:5px;
+	line-height:20px;
+}
+.box-register-payment .reg-item .user-input label.radio,
+.box-register-payment .reg-item .user-input label.chk,
+.box-register-payment .reg-item .user-input label.required {
+	width:auto;
+	font-weight:normal;
+}
+.box-register-payment .reg-item .user-input input {
+	float:left;
+	width:178px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-register-payment .reg-item .user-input input.radio,
+.box-register-payment .reg-item .user-input input.chk {
+	border:none;
+	width:auto;
+	margin-right:5px;
+	margin-top:2px;
+}
+.box-register-payment .reg-item .user-input select,
+.box-register-payment .reg-item .user-input textarea {
+	float:left;
+	width:180px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-register-payment .reg-item .user-input textarea {
+	height:150px;
+}
+.box-register-payment .reg-item .user-input select.third {
+	float:left;
+	width:55px;
+	margin-right:5px;
+}
+.box-register-payment .reg-item .user-input input.btn {
+	float:right;
+	width:auto;
+	border:none;
+	height:auto;
+	margin-right:50px;
+}
+.box-register-payment .reg-item .user-input span.notes {
+	float:left;
+	width:100%;
+	text-align:right;
+	padding-top:5px;
+	color:#a0a0a0;
+}
+.box-register-payment .reg-item .user-input span.inline-infos,
+.box-register-payment .reg-item .user-input .form_info {
+	float:left;
+	padding-left:125px;
+	padding-top:5px;
+	color:#a0a0a0;
+}
+.box-register-payment .reg-item .large {
+	width:670px;
+	clear:both;
+}
+.box-register-payment .reg-item .large input {
+	float:left;
+	margin-right:0 !important;
+}
+.section-error {
+	border:none;
+	padding:0;
+}
+.already-registered {
+	float:left;
+	width:690px;
+}
+.already-registered h3 {
+	color:#78614F;
+	float: left;
+	line-height:20px;
+	width:690px;
+	font-size:16px;
+	padding-bottom:5px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.already-registered #login_form_content {
+	float:left;	
+	margin-bottom:10px;
+	border-top: 1px dotted #000000;
+	padding-left:65px;
+	width:625px;
+	font-size:11px;
+}
+.already-registered .user-input {
+	width:190px;
+	float:left;
+	margin:10px 10px 0 0;
+}
+.already-registered .user-input input {
+	float:left;
+	border: 1px solid #A7A7A7;
+    float: left;
+    font-size: 11px;
+    height: 22px;
+    width: 188px;
+}
+.already-registered .user-input input.btn {
+	background:url(../../images/btn/small_exclusive.gif) left top no-repeat;
+	width:80px;
+	height:24px;
+	float:left;
+	border:none;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+}
+.already-registered .user-input a {
+	float:left;
+	line-height:20px;
+	padding-left:5px;
+	text-align:center;
+}
+.already-registered .submit {
+	float:left;
+	width:auto;
+	margin-top:26px;
+}
+.already-registered #opc_login_errors {
+	float:left;
+	width:auto;
+	
+}
+#opc_login_errors b {
+	float:left;
+	clear:both;
+	width:100%;
+}
+.box-information {
+	float:left;
+	clear:both;
+	width:730px;
+	margin:20px 0;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+.box-information .information-item {
+	border-top:1px dotted #000000;
+	padding-top:10px;
+	float:left;
+	width:730px;
+	clear:both;
+	font-size:11px;
+	min-height:350px;
+}
+.box-information .information-item ul {
+	float:left;
+	width:100%;
+	clear:both;
+	list-style:none;
+	display:block;
+}
+.box-information .information-item ul li {
+	float:left;
+	clear:both;
+	width:100%;
+	padding:3px 0;
+}
+.box-information .information-item ul li img {
+	float:left;
+	border:0;
+	margin-right:5px;
+}
+.box-information .information-item ul li.last {
+	padding-top:5px;
+}
+.box-information .information-item ul li.last img {
+	margin-top:-2px;
+}
+#opc_account_errors b {
+	float:left;
+	width:100%;
+	clear:both;
+}
+#opc_account_errors ol b {
+	width:auto;
+	float:none;
+}

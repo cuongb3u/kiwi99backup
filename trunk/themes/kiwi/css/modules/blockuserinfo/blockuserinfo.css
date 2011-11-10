@@ -1,0 +1,279 @@
+/* block top user information */
+#header_right #header_user {
+	float: right;
+	width: 535px;
+	text-align: right;
+	margin-right: 6px;
+}
+#header_user p { color: #595a5e ;font-size: 13px;}
+#header_user span {
+line-height: 42px;
+font-size: 12px;
+font-family: arial;
+color: #60605D;
+margin-top: 10px;}
+#header_user ul { margin-top: 0.3em; }
+#header_user li{
+	color: #6F6F68;
+	float: left;
+line-height: 19px;
+white-space: nowrap;
+font-size: 11px;
+font-style: italic;
+width: 100%;
+padding-top: 10px;
+}
+#header_user li h4 {
+color: #6F6F68;
+float: left;
+line-height: 19px;
+white-space: nowrap;
+font-size: 11px;
+font-style: italic;
+width: 100%;
+margin:0px !important;
+margin-top:10px !important;
+}
+#header_user #shopping_cart, #header_user #your_account { font-size: 0.9em }
+#header_user li#your_account { margin-left: 0 ;clear:both;}
+#header_user #shopping_cart a, #header_user #your_account a {
+background-repeat: no-repeat;
+background-position: -10px;
+padding: 10px 0px 3px 35px;
+height: 30px;
+text-decoration: none;
+float: left;
+}
+#header_user #shopping_cart a { 
+	background-image: url('../../../images/icon/cart.png'); 
+}
+#header_user #your_account a { 
+	float:left;
+	background: url('../../../images/icon/my-account.gif') left center no-repeat; 
+}
+#login_form{
+	background-image: url("../../../images/icon/login_form_3.png");
+    background-repeat: no-repeat;
+    display: none;
+   position: absolute;
+   height:80px;
+    right: -9px;
+    top: 27px;
+    width: 216px;
+    z-index: 1003;
+}
+.login_form_click{
+	height:222px !important;;
+}
+#login_form_bottom{
+	background-image: url("../../../images/icon/login_form_bottom.png") ;
+	height: 22px;
+    position: absolute;
+    top: 70px;
+     left: 0px;
+    width: 100%;
+}
+#login_form fieldset{
+	width: 215px;
+
+}
+.login_container{
+	float:left;
+	position:relative;
+	z-index:1003;
+}
+#close_login_form{
+	font-size: 15px;
+color: red;
+float: right;
+margin-right: 3px;
+text-transform: uppercase;
+cursor: pointer;
+line-height: 1;
+display:none;
+	
+}
+#login_form fieldset{
+	text-align: left;
+padding-left: 10px;
+line-height: 18px;
+border:none;
+float:left;
+padding: 2px 12px;
+}
+#SubmitLogin{
+width: 100px;
+height: 38px;
+margin-top:0px !important;
+
+}
+.show_login a{
+	z-index:1003;
+	color:!important;
+	font-size:20px!important;
+	position:relative;
+}
+.overlay2 {
+background-color: black;
+border: medium none;
+height: 100%;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+-khtml-opacity: 0.05;
+-moz-opacity: 0.05;
+filter: alpha(opacity=5);
+opacity: 0.05;
+width: 100%;
+position: fixed;
+padding: 0;
+z-index: 1001;
+left: 0px;
+}
+#login_form fieldset p.text{
+	margin-top: 10px;
+}
+#login_form fieldset p.text label{
+font-style: normal;
+color: #C8C1C1;
+font-size: 11px;
+font-family: "Lucida Grande", Arial, Sans-serif;
+
+}
+#login_form h3{
+	font-size: 23px;
+margin-top: 10px;
+}
+input {
+
+background-image: none;
+color: black;
+}
+#login_form input{
+	display: block;
+	border: 1px solid #ACE;
+	font-size: 11px;
+	margin: 0 0 5px;
+	padding: 3px;
+	
+    width: 126px;
+	background:white;
+   
+}
+#login_form label{
+	text-align: right;
+	padding-right:2px;
+}
+
+#login_form input.button {
+	float: right;
+	border-radius: 0 !important;
+    height: 18px;
+    margin-right: 25px;
+     margin-top: 0px !important;
+    width: 70px !important;
+    font-size: 10px !important;
+}
+
+#login_form_kiwi{
+	width:90%;
+	position: absolute;
+    top: 80px;
+    left:0px;
+}
+.lost_password{
+	width:100px;
+	float:left;
+	margin-top: 5px;
+}
+.lost_password a{
+	color: #6F6F68 !important;
+    font-size: 10px;
+	text-decoration: underline;
+}
+
+/* popup_login */
+#popup_container_2 {
+    float: left;
+    width: 100%;
+    height:100%;
+}
+#popup_content_2{
+	width:100%;
+	height:100%;
+}
+#popup_content_2 > ul{
+	width:100%;
+	margin-top:10px;
+}
+#popup_content_2 li{
+	float: left;
+    height: 8px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 18px;
+}
+#popup_content_2 a{
+	text-decoration: none;
+	
+}
+
+
+#kiwi{
+	background-image: url("../../../images/icon/kiwi_icon.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 16px !important;
+    margin-right: 10px;
+    width: 69px !important;
+}
+#kiwi:hover{
+	background-position: -69px 0px !important;
+}
+
+#popup_FB{
+	background-image: url('../../../images/icon/provider.png');
+	background-position:0 0;
+}
+#popup_FB:hover{
+	background-position:-36px 0px;
+}
+
+#popup_GG{
+	background-image: url('../../../images/icon/provider.png');
+	background-position:0px -36px;
+}
+
+#popup_GG:hover{
+	background-position:-36px -36px;
+}
+
+#popup_YH{
+	background-image: url('../../../images/icon/provider.png');
+	background-position:0 -18px;
+}
+#popup_YH:hover{
+	background-position:-36px -18px;
+}
+
+#FB_message, #GG_message, #YH_message{
+	clear: both;
+    left: 30px;
+    position: absolute;
+    top: 80px;
+}
+.kiwi_click{
+		background-position: -138px 0px !important;
+	}
+
+.popup_GG_click{
+		background-position: -18px -36px !important;
+	}
+	.popup_FB_click{
+		background-position: -18px 0px !important;
+	}
+	.popup_YH_click{
+		background-position: -18px -18px !important;
+	}
+
+
+

@@ -1,0 +1,345 @@
+@charset "utf-8";
+/** HEADER **/
+::selection {
+background: black;
+color: white;
+text-shadow: none;
+}
+	.header {
+width: 100%;
+clear: both;
+height: 39px;
+border-bottom: 1px solid #CAC6C6;
+/* margin-bottom: 41px; */
+}
+.bg_header{
+position: absolute;
+width: 100%;
+height: 40px;
+background: #848181;
+opacity: 0.1;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+-moz-opacity: 0.1;
+filter: alpha(opacity=10);
+left:0px;
+top:0px;
+}
+.header_wrapper{
+	position: relative;
+z-index: 1002;
+width: 970px;
+margin: 0 auto;
+height: 100%;
+}
+.header .logo {
+position: absolute;
+top: 0px;
+width: 200px;
+height: 40px;
+left:0px;
+}
+.header .logo a {
+ float: left;
+
+}
+.logo h1 {
+
+}
+.header .account {
+float: right;
+display: block;
+width: 21%;
+font-size: 14px;
+font-family: "Times New Roman", Times, serif;
+text-align: center;
+}
+.swatches ul li{
+	float:left;
+	width:100%;
+}
+.main-content .tree-menu ul li a {
+margin-top: 5px;
+}
+.header .account ul {
+	float:right;
+	display: inline;
+	font-size: 14px;
+	margin-top: 5px;
+	line-height: 10px;
+	font-family: Arial;
+	text-align: center;
+
+}
+.header .account ul li{
+	/*width: 70px;*/
+	float: left;		
+}
+.header .account ul li.first {
+	background:none;
+	padding-right:0;
+}
+.header .account ul li a {
+	text-decoration:none;
+}
+.header .account ul li a:hover {
+	text-decoration:none;
+	color:black;
+}
+.header .account .shopping-item {
+	float: right;
+font-size: 11px;
+}
+.header .account .shopping-item strong {			
+	color:#384140;
+	float:left;
+	padding-right:5px;
+}
+.header .account .shopping-item div div{
+float: right;
+line-height: 21px;
+padding-right: 12px;
+_background: url('../images/bg/bg_bag.png') 33px 4px no-repeat;
+_width: 190px;
+height: 41px;
+margin-top: 3px;
+}
+.header .account .shopping-item div div .ajax_cart_total {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+}
+
+/***/
+.header-title {
+	float:left;
+	width:97%;
+	padding-bottom:5px;		
+	color:black;
+}
+.header-title h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+.header-title-sub {
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #000;
+	border-top:1px dotted #000;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	color:black;
+}
+.header-title-sub h4 {
+	font-size:18px;
+	font-weight:normal;
+}
+
+#header_right {
+	float:left;
+	width:100%;
+	font-size:11px;
+}
+#currencies_block_top, #languages_block_top, #header_links, #search_block_top {
+	display:none;
+}
+/* hoaiphuong edit logo-brand*/
+
+.lb-container {
+
+}
+
+#img_block {
+width: 970px;
+margin: 0 auto;
+
+}
+.ad_block {
+float: left;
+width: 100%;
+height: 0px;
+overflow: hidden;
+}
+.user_block{
+float: left;
+display: inline;
+width: 200px;
+font-size:14px;
+margin-top: 5px;
+margin-left: 21px;
+line-height:10px;
+font-family:"Times New Roman", Times, serif;
+
+text-align:center;
+}
+.user_block a{
+color:#999999;
+
+}
+.user_block li{
+width:70px;
+float:left;
+}
+
+
+
+#login_button{
+float: right;
+position: relative;
+text-decoration: none;
+font-weight: bold;
+background-position: 100% 50%;
+background: #F8F6F6;
+padding: 1px;
+border: 1px solid #ABA8A8;
+}
+#login_button a{
+font: 11px/1.5 Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+font-style: italic;
+}
+a.login-button{
+	background-image: url(../images/toggle_down_light.png);
+background-repeat: no-repeat;
+background-position: 100% 50%;
+padding: 2px 6px;
+color: #807B78;
+font: 13px/1.5 Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+}
+.menu-open{
+	
+	position:relative;
+	z-index:1003;
+	
+}
+
+.menu-open a.login-button{
+background-image: url(../images/toggle_up_light.png)!important;
+}
+input#SubmitLogin{
+	-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+background: #DDD url(../images/buttons/bg-btn.gif) repeat-x 0 0;
+border-color: #BBB #BBB #999;
+color: #333!important;
+padding: 0 10px 5px !important;
+font-size: 11px;
+margin: 0 5px 0 0;
+font-weight: bold;
+width: 68px!important;
+height: 25px;
+font-weight: normal!important;
+margin-top: 20px!important;
+cursor:pointer;
+}
+.sign_up{
+line-height: 24px;
+}
+input:-webkit-autofill {
+    color: white !important;
+}
+#header_user_info{
+color: black;
+position: relative;
+z-index: 1000;
+width: 197px;
+height: 36px;
+
+}
+a.login-button:hover{
+}
+a#log_out{
+	color:#807B78;
+}
+a.sign_up{
+	float:left;
+}
+#login_form a{
+	color:#dcd9d7;
+}
+.zindex200{
+	z-index:2000!important;
+}
+.SubmitLoginsucces{
+	background:#7be1fa!important;
+}
+p.errors_display{
+	color:#ee6a6e !important;
+	font-weight:bold;
+}
+.loadinginfo{
+	 background: url("../images/loadinfo.gif") no-repeat scroll 0 0 transparent!important;
+}
+input.loadingingo:hover{
+	background-position:0!important;
+	
+}
+
+
+a.user_name {
+font-size: 14px!important;
+font-style: normal!important;
+}
+.overlay1{
+	position: fixed;
+	width:100%;
+	height:100%;
+	z-index:1;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+#button_order_cart img{
+	width:100%;
+}
+.have_bag{
+	_background-position: 0 -36px!important;
+}
+#button_order_cart{
+	width: 123px;
+}
+.logo-brand li {
+margin-right: 0;
+float: left;
+list-style: none;
+padding-right: 0;
+height: 50px;
+border-right: 1px solid #303030;
+border-left: 1px solid black;
+}
+.logo-brand li a {
+display: block;
+height: 100%;
+margin: 5px auto;
+text-decoration: none;
+background: url('../images/logo-brand.png') no-repeat;
+margin-top: 0;
+width: 140px;
+float: left;
+}
+.wrapper {
+padding-top: 50px;
+}
+.logo-brand {
+background: url('../images/brandnav_bg.png');
+height: 50px;
+-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: -5px 3px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+position: relative;
+z-index: 100;
+clear: both;
+width: 970px;
+margin: 0 auto;
+}
+li.brand_logo_hover {
+background: url('../images/brandnavli_bg.png') no-repeat right;
+}
+.brand_logo2 a {
+background-position: 13px -45px!important;
+}
+.brand_logo3 a {
+background-position: 2px -93px!important;
+}
+li.brand_logo:hover {
+background: url('../images/brandnavli_bg.png') no-repeat right;
+}
+/* end hoaiphuong edit */

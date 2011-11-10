@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import url('global.css');
+.section-error{
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px dotted #000;
+	width:100%;
+	font-size:11px;
+}
+.header-title {
+	float:left;
+	clear:both;
+	width:100%;
+	border-bottom:1px dotted #000;
+}
+.header-title-sub {
+	border:none;
+}
+.line {
+	border-bottom:1px dotted #000000;
+	float:left;
+	padding-top:20px;
+	padding-bottom:5px;
+	margin-bottom:40px;
+	width:450px;
+}
+.box-cms {
+	float:left;
+	clear:both;
+	width:720px;
+	margin:20px;
+	margin-right:0;
+	padding-bottom:20px;
+}
+.box-cms .item {
+	float:left;
+	width:470px;
+	clear:both;
+	padding-top:10px;
+}
+.box-cms .item ul {
+	float:left;
+	clear:both;
+	list-style:inherit outside;
+	margin-left:10%;
+	width:90%;
+	display:block;
+}
+.box-cms .item ul li {
+	float:left;
+	padding-bottom:5px;
+}
+.box-cms .item table {
+	float:left;
+	clear:both;
+	margin:5px 0;
+	border-collapse:collapse;
+}
+.box-cms .item table td {
+	padding:5px;
+}
+.box-cms .item p {
+	line-height:20px;
+}

@@ -1,0 +1,52 @@
+/* category.tpl */
+body#category #subcategories li { height: 136px; width: 108px; margin-right: 3px }
+div.cat_desc { margin: 0 1em }
+body#category div#subcategories .inline_list a img { display: inline }
+#category img#categoryImage { }
+.quick_view {
+position: absolute;
+left: 0px;
+top: 81px;
+display: none;
+cursor: pointer;
+background-color: black;
+color: white;
+font-size: 14px;
+padding: 5px 10px;
+opacity: 0.3;
+width: 45%;
+}
+.quick_view:hover {
+opacity: 0.5;
+}
+.pro-thumb{
+	position:relative;
+}
+.show_content .data{
+	width: 680px;
+height: 531px;
+overflow: hidden;
+padding: 20px;
+padding-top:0;
+text-align: left;
+}
+#idTab2{
+	text-align:left;
+}
+.show_content .zoomdiv{
+	top: 65px!important;
+left: 334px!important;
+}
+.product-link{
+	font-family: 'Trade Gothic Condensed Bold',Arial,Helvetica,'sans serif';
+font-size: 12px;
+color: black;
+text-decoration: underline;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 10px;
+float: left;
+}
+#more_info_sheets div{
+	display:block;
+}

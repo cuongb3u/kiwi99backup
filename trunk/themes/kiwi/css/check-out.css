@@ -1,0 +1,219 @@
+@charset "utf-8";
+@import url('global.css');
+.navi {
+	width:950px;
+	background:none;
+	line-height:normal;
+}
+.navi .shopping-continue {
+	float:right;
+	width:auto;
+	padding-left:10px;	
+}
+.box-checkout {
+	float:left;
+	width:960px;
+	clear:both;
+	margin-bottom:10px;
+}
+.box-checkout .list,
+.box-checkout .item {
+	float:left;
+	width:700px;
+	clear:both;
+}
+.box-checkout .item {
+	margin-bottom:20px;
+}
+.box-checkout p {
+	float:left;
+	width:100%;
+	font-size:8.5pt;
+}
+.box-checkout .list .payment-method {
+	float:left;
+	width:700px;
+	clear:both;
+	background-color:#dfddde;
+	height:40px;
+}
+.box-checkout .list .payment-method ul {
+	float:left;
+	width:100%;	
+	list-style:none;
+	display:block;
+	clear:both;
+}
+.box-checkout .list .payment-method ul li {
+	background:url(../images/bg/point-flow.gif) left center no-repeat;
+	float:left;
+	border-left:2px solid #f0f0f0;
+	padding:0 20px;
+	line-height:40px;
+}
+.box-checkout .list .payment-method ul li.first{
+	background:none;
+	background-color:#f0f0f0;
+	border-left:none;
+}
+.box-checkout .list .card-info,
+.box-checkout .list .card {
+	float:left;
+	width:350px;
+	margin-top:20px;
+}
+.box-checkout .list .card {
+	border-left:1px dotted #000;
+	width:349px;
+	height:150px;
+}
+.box-checkout .list .card h4{
+	float:left;
+	padding-left:50px;
+	padding-bottom:5px;
+}
+.box-checkout .list .card a {
+	font-weight:bold;
+	padding-left:50px;
+	float:left;
+	clear:both;
+	padding-top:30px;
+	color:#746457;
+}
+.box-checkout .list .card ul {
+	float:left;
+	list-style:none;
+	display:block;
+	clear:both;
+	width:250px;
+	padding-left:50px;	
+	padding-right:50px;
+	
+}
+.box-checkout .list .card ul li {
+	float:left;
+	width:26px;
+	padding:5px;
+}
+.box-checkout .list .card ol {
+	float:left;
+	list-style:inside decimal;
+	display:block;
+	clear:both;
+	width:250px;
+	padding-left:50px;	
+	padding-right:50px;
+}
+.box-checkout .list .card ol li {
+	float:left;
+	clear:both;
+	padding:5px;
+}
+.box-checkout .list .note {
+	float:left;
+	width:100%;
+	clear:both;
+	margin-bottom:20px;
+}
+.box-checkout .list .note p {
+	line-height:14px;
+}
+.box-checkout .list .user-input{
+	float:left;
+	width:100%;
+	padding-bottom:20px;
+	font-size:8.5pt;
+}
+.box-checkout .list .user-input label {
+	float:left;
+	width:108px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.box-checkout .list .user-input input{
+	float:left;
+	width:185px;
+	font-size:8.5pt;
+	height:18px;
+	border:1px solid #a7a7a7;
+}
+.box-checkout .list .user-input a {
+	float:left;
+	width:auto;
+	margin-left:5px;
+	line-height:20px;
+}
+.box-checkout .list .user-input a img {
+	margin-top:1px;
+}
+.box-checkout .list .user-input a.tooltipHelp img {
+	margin-top:-5px;
+}
+.box-checkout .list .user-input input.third{
+	float:left;
+	width:65px;
+}
+.box-checkout .list .user-input select {
+	font-size:8.5pt;
+	float:left;
+	width:187px;
+	height:20px;
+	border:1px solid #a7a7a7;
+}
+.box-checkout .list .user-input select.third{
+	float:left;
+	width:67px;
+	margin-right:5px;
+}
+.box-checkout .list ul.billing {
+	float:left;
+	clear:both;
+	list-style:none;
+	display:block;
+	width:100%;
+	margin-top:20px;
+}
+.box-checkout .list ul.billing li {
+	float:left;
+	width:50%;
+}
+.box-checkout .list ul.billing li div.radio,
+.box-checkout .list ul.billing li div.chk{
+	float:left;
+	width:242px;
+}
+.box-checkout .list ul.billing li div.radio span{
+	float:left;
+	clear:both;
+	padding-bottom:5px;
+}
+.box-checkout .list ul.billing li div.radio input,
+.box-checkout .list ul.billing li div.chk input {
+	float:left;
+	width:auto;
+	margin-right:5px;
+	border:none;
+	margin-top:-2px;
+}
+.box-checkout .list ul.billing li div.radio label,
+.box-checkout .list ul.billing li div.chk label {
+	float:left;
+	width:auto;
+	font-weight:normal;
+}
+.box-checkout .list .action {
+	float:left;
+	width:700px;
+	border-top:1px dotted #000;
+	margin-top:10px;
+}
+.box-checkout .list .action input {
+	float:right;
+	border:none;
+}
+.box-checkout .notice {
+	float:left;
+	width:100%;
+	text-align:left;
+	padding-bottom:5px;
+}

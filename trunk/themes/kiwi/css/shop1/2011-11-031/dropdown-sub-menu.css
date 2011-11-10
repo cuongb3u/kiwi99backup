@@ -1,0 +1,105 @@
+@charset "utf-8";
+div.dropdown-sub-menu {
+	position: absolute;
+	visibility: hidden;
+	padding: 0;
+	border-left:none;
+	border-top:none;			
+	width:118px;
+	display:block;
+	background:#dedede;
+	min-height:235px;
+	z-index:100;
+	border-top:1px dotted #000;	
+	top:53px;
+	left:0px
+}
+/** PRODUCT FILTER BRAND - PRICE - SORT BY **/
+div.dropdown-sub-menu ul.brand,
+div.dropdown-sub-menu ul.price,
+div.dropdown-sub-menu ul.sort-by,
+div.dropdown-sub-menu ul.colour {
+	float:left;
+	width:110px !important;
+	margin-left:4px;
+	padding-right:4px;
+	clear:both;
+	list-style:none;
+	display:block;
+	background:none !important;
+}
+div.dropdown-sub-menu ul.brand li,
+div.dropdown-sub-menu ul.price li,
+div.dropdown-sub-menu ul.sort-by li {
+	float:left;
+	width:106px;
+	background:none !important;
+	clear:both;
+	padding:8px 4px !important;
+	margin:0 !important;
+}
+div.dropdown-sub-menu ul.brand li a,
+div.dropdown-sub-menu ul.price li a,
+div.dropdown-sub-menu ul.sort-by li a {
+	color:#646464 !important;
+	font-size:11px;
+}
+/** PRODUCT FILTER SIZE **/
+div.dropdown-sub-menu ul.size {
+	float:left;
+	width:109px !important;
+	margin-left:5px;
+	padding-right:4px;
+	clear:both;
+	list-style:none;
+	display:block;
+	background:none !important;
+}
+div.dropdown-sub-menu ul.size li {
+	float:left;
+	width:26px !important;
+	background:none !important;
+	clear:none !important;
+	padding:5px 0px !important;
+	text-align:center;
+	margin:0 !important;
+}
+div.dropdown-sub-menu ul.size li a {
+	color:#646464 !important;
+	font-size:11px;
+}
+div.dropdown-sub-menu ul.size2 {
+	float:left;
+	width:100px !important;	
+	border-top:1px dotted #000;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:9px;
+	padding-top:5px;
+	padding-bottom:10px;
+	clear:both;
+	list-style:none;
+	display:block;
+	background:none !important;
+}
+div.dropdown-sub-menu ul.size2 li {
+	float:left;
+	width:20px !important;
+	background:none !important;
+	clear:none !important;
+	padding:5px 0px !important;
+	text-align:center;
+	margin:0 !important;
+}
+div.dropdown-sub-menu ul.size2 li a {
+	color:#646464 !important;
+	font-size:11px;
+}
+div.dropdown-sub-menu ul.colour li {
+	width:15px;
+	height:12px;
+	float:left;
+	margin:3px;
+	background:none;
+	border:none;
+}

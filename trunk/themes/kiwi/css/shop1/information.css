@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url('global.css');
+.section-error{
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px dotted #000;
+	width:100%;
+	font-size:11px;
+}
+.header-title-sub {
+	border:none;
+}
+.line {
+	border-bottom:1px dotted #000000;
+	float:left;
+	padding-top:20px;
+	padding-bottom:5px;
+	margin-bottom:40px;
+	width:450px;
+}
+.box-information {
+	float:left;
+	clear:both;
+	width:740px;
+	margin:20px 0;
+	padding-bottom:20px;
+}
+.box-information .header-title {
+	border-bottom:1px dotted #000000;
+	padding-bottom:10px;
+}
+.box-information .item {	
+	
+	float:left;
+	width:460px;
+	padding:0 20px;
+	clear:both;
+	font-size:11px;
+	min-height:350px;
+}
+.box-information .item .user-input {
+	float:left;
+	width:460px;
+	padding-bottom:10px;
+	clear:both;
+}
+.box-information .item .user-input div {
+	float:left;
+	width:auto;
+	margin-right:20px;
+}
+.box-information .item .user-input label {	
+	font-weight:bold;
+	color:#3d3d3d;
+	width:150px;
+	float:left;
+	line-height:20px;
+}
+.box-information .item .user-input label.radio,
+.box-information .item .user-input label.chk,
+.box-information .item .user-input label.required {
+	width:auto;
+	font-weight:normal;
+}
+.box-information .item .user-input input {
+	float:left;
+	width:248px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-information .item .user-input input.radio,
+.box-information .item .user-input input.chk {
+	border:none;
+	width:auto;
+	margin-right:5px;
+	margin-top:2px;
+}
+.box-information .item .user-input select {
+	float:left;
+	width:250px;
+	border:1px solid #a7a7a7;
+	font-size:11px;
+	height:18px;
+}
+.box-information .item .user-input select.third {
+	float:left;
+	width:80px;
+	margin-right:5px;
+}
+.box-information .item .user-input input.btn {
+	float:right;
+	width:auto;
+	border:none;
+	height:auto;
+	margin-right:50px;
+}
+.box-information .item .user-input .notes {
+	float:left;
+	width:100%;
+	text-align:left;
+	color:#8e8e8e;
+}
+.box-information .address-book {
+	float:left;
+	width:220px;
+	background-color:#f2f2f2;
+	margin-top:20px;
+	padding:10px;
+}
+.box-information .address-book .header-title {
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+.box-information .address-book h3 {
+	font-size:18px;
+	font-weight:normal;
+}
+.box-information .address-book ol {
+	float:left;
+	width:200px;
+	margin-left:20px;
+	list-style:outside decimal;
+	display:block;
+}
+.box-information .address-book ol li {
+	float:left;
+	clear:both;
+	padding:20px 0;
+	width:200px;
+	font-size:11px;
+	border-top:1px dotted #000000;
+}
+.box-information .address-book ol li.first{
+	border:none;
+}
+.box-information .address-book ol li strong,
+.box-information .address-book ol li span {
+	width:100%;
+	clear:both;
+	float:left;
+}
+.box-information .address-book ol li span {
+	line-height:16px;
+}
+.box-information .address-book li ul {
+	float:left;
+	width:100%;
+	list-style:none;
+	display:block;
+	clear:both;
+}
+.box-information .address-book li li {
+	float:right;
+	width:auto;
+	clear:none;
+	border-right:1px solid #8c857f;
+	padding:0 6px 0  5px;
+	border-top:none;
+}
+.box-information .address-book li li.first {
+	border:none;
+	padding-right:0;
+}
+.box-information .address-book a {
+	color:#8d8884;
+	text-decoration:underline;
+}
+.box-information .address-book a:hover {
+	text-decoration:none;
+}

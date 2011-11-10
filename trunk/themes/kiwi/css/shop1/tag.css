@@ -1,0 +1,17 @@
+@charset "utf-8";
+a {
+	 text-decoration:none;
+	 color:#384140;
+}
+a:hover {
+	text-decoration:underline;
+}
+.lastest-viewed,
+.price-sales {
+	color:#c0265a;
+}
+a.read-more {
+	 color:#384140 !important;
+	 font-weight:bold;
+}
+

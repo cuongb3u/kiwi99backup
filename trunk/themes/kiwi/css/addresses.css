@@ -1,0 +1,97 @@
+/* adresses */
+div.addresses {	
+	/*border: 1px solid #d0d3d8;background: #D0D1D5 url('../images/bk/form_bg.jpg') repeat-x top left;*/
+	width: 100%;
+	float:left;
+	clear:both;
+}
+div.addresses h3 { margin: 0 }
+div.addresses p.checkbox,
+p#address_invoice_form {
+	float:left;
+}
+p#address_invoice_form{
+float: right;
+width: 48%;
+}
+p.address_delivery{
+	float: left;
+width: 45%;
+}
+div.addresses p.checkbox input {
+	margin-top: 0!important;
+	margin-top: -3px;
+	border:1px solid #62625a;
+}
+a.btn_add_address{
+	float: left;
+	margin-top: 10px;
+	font: 13px arial,helvetica,clean,sans-serif;
+	text-decoration: underline;
+	/*color: #5A5951;*/
+	font-size:11px;
+	font-weight: bold;
+	clear:both;
+}
+p.checkbox{
+	float:right!important;
+	width:48%;
+}
+
+
+li.address_title {
+	margin-top: 0 !important;
+	font-weight: bold;
+	height: 27px;
+	font-size: 1.2em;
+	line-height: 1.9em;
+	margin-left: 0px!important;
+	padding-left: 15px;
+}
+ul.item li.address_title { /*background-image: url('../images/bk/address_alias_left.gif')*/ background-color:#C1C1C1; }
+ul.alternate_item li.address_title { /*background-image: url('../images/bk/address_alias_right.gif')*/ background-color:#C1C1C1; }
+li.address_name,
+li.address_update a,
+li.address_delete a {  	
+	font: 11px arial,helvetica,clean,sans-serif;
+	text-decoration: none;
+	/*color: #5A5951;*/
+	color:#FFFFFF;
+	font-weight: bold;
+}
+li.address_name,
+li.address_firstname,
+li.address_lastname { 
+ 	font-weight: bold 
+}
+
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_update a,
+span.address_delete a { color: #dd2a81 }
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_company { font-weight: bold }
+
+li.address_update,
+
+li.address_update a,
+li.address_delete a {
+	float:left;
+	padding-left:5px;
+}
+#center_column .address_add { padding: 1em 0 }
+.address_vat_number,
+.address_country {
+	display:none;
+}
+.first-item {
+	float:left;
+	width:80px;
+	font-weight:normal;
+}
+#update_address{
+	width:500px;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+body{
+	background-position: 50% 0;
+	background: #0B1720;
+}
+
+body {
+	margin: 0 auto;
+font-family: Arial;
+font-size: 12px;
+color: #384140;
+padding: 0;
+text-align: center;
+background-image: url(../images/bg/bg_body.png);
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+.wrapper {
+	margin:0 auto;
+	width:970px;
+	padding:0 10px 7px;
+	text-align: left;
+	background:url(../images/bg/bg_branded_wrapper.png) repeat scroll 0 0 transparent;
+}
+
+.clear {
+	clear:both;
+	width:100%;
+}
